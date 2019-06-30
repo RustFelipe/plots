@@ -67,7 +67,7 @@ p1 <- ggplot(data, aes(x = distance.from.mouth,
 
 animate(p1, nframes = 120, end_pause = 60, rewind = FALSE, width = 900, height = 500)
 
-anim_save("test.gif", dpi = 300) 
+anim_save("scatter_animated_plot.gif", dpi = 300) 
 
 
 
